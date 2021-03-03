@@ -1,7 +1,8 @@
-#WAP that takes three numbers and prints their sum. Every number is given on a seperate line.
-a=int(input("enter first number :"))
-b=int(input("enter second number :"))
-c=int(input("enter third number :"))
-s=a+b+c
-print(s)
+#WAP to print a even number from 1  to 50. Check each number is even?
+for i in range(0,50,2):
+    print(i)
+if i%2==0:
+    print("it is even number")
+else:
+    print("it is not a even number")
 
