@@ -1,8 +1,12 @@
-#WAP to find the sum of elements of list using while loop
-lst=[10,31,37,40,56,63,70]
-sum=0
-for i in lst:
-    sum=sum+i
-print("the sum is",sum)
+weight=int(input("enter weight="))
+unit=input("(l)bs or k(g):")
+if unit.upper()=="l":
+    converted_lbs=weight=0.45
+    print(f"the person weight is {converted_lbs} kilos")
+elif unit.upper()=="k":
+    converted_kg= weight/o.45
+    print(f"the person weight is {converted_kg} pounds")
+else:
+    print(f"please enter appropriate character as K for kg or L for lbs!!")
 
 
