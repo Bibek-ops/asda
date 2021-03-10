@@ -1,8 +1,9 @@
-#WAP to print a even number from 1  to 50. Check each number is even?
-for i in range(0,50,2):
-    print(i)
-if i%2==0:
-    print("it is even number")
+#if name is less than three character long name must be at least 3 character otherwise if its more than 50 character name must be maximum of 50 cahracters otherwise name looks good
+name=input("enter your name")
+if len(name)<3:
+    print("name must be atleast three character")
+elif len(name)<50:
+    print("name must be less than 50")
 else:
-    print("it is not a even number")
+    print("thank you")
 
