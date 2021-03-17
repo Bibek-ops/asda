@@ -5,5 +5,6 @@ if a<10:
 elif a>30:
     print("its hot day")
 else:
+
     print ("its medium")
 
