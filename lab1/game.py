@@ -1,11 +1,15 @@
-secret=8
-attempt=0
-while (attempt < 3):
-    inp =int(input("enter  a number:"))
-    if inp== secret:
-        print("you are right")
-        break
-    else:
-        attempt+=1
-        print("try again")
-    print("you failed")
+a = int(input("""
+Help 
+asd
+Start 
+Stop 
+Quit
+"""))
+if a == help:
+    print("""
+    start - to start car
+    stop - to stop car
+    quit- quit""")
+elif a ==
+    print("""
+    """)
