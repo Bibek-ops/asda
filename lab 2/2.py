@@ -10,7 +10,7 @@ percentage=(sum/total)*100
 print(f"the percentage obtained is {percentage}")
 if  percentage <= 40:
     print("you failed")
-elif percentage <=
+elif percentage <]
 
 
 
